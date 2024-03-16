@@ -1,0 +1,53 @@
+body {
+    padding: none;
+    margin: none;
+    font-size: 16px;
+    background-image: url("columns.jpg");
+    background-size: contain;
+}
+
+.container {
+    width: 80%;
+    height: 80vh;
+    margin: 4rem auto;
+    background-color: rgb(152, 174, 192);
+    border-radius: 2rem;
+}
+
+#title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 2rem;
+    margin: 2rem auto;
+}
+
+#column {
+    text-align: center;
+    font-size: 7rem;
+    margin: 2rem auto;
+}
+
+#increment {
+    display: block;
+    margin: 8px auto;
+    font-size: 2rem;
+    background-color: brown;
+    border: 1px solid rgb(158, 109, 109);
+    border-radius: 8px;
+}
+
+#save {
+    display: block;
+    margin: 8px auto;
+    font-size: 2rem;
+    background-color: aquamarine;
+    border: 1px solid rgb(93, 141, 125);
+    border-radius: 8px;
+}
+
+#counter {
+    text-align: center;
+    font-size: 1.5rem;
+}
